@@ -8,5 +8,9 @@ namespace SpringNetAop.Attributes
 {
     public class LoggingAttributes : Attribute
     {
+        /*public LoggingAttributes()
+        {
+            Console.WriteLine(GetType().Namespace);
+        }*/
     }
 }

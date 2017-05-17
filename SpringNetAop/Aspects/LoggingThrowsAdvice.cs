@@ -17,7 +17,6 @@ namespace SpringNetAop.Aspects
         public void AfterThrowing(Exception ex)
         {
             Console.WriteLine(ex);
-            Console.WriteLine(GetLogger.Logger.IsErrorEnabled);
             GetLogger.Logger.Error($"异常的内容为: {ex}");
         }
     }

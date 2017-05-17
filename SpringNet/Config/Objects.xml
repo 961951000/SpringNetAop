@@ -39,7 +39,7 @@
   <object id="throwsAdvice"  type="SpringNetAop.Aspects.LoggingThrowsAdvice, SpringNetAop" />
   <object id="ServiceCommand" type="Spring.Aop.Framework.ProxyFactoryObject">
     <property name="Target">
-      <object type="SpringNet.BLL.UserOperateBll, SpringNet" />
+      <object type="SpringNet.BLL.Base, SpringNet" />
     </property>
     <property name="InterceptorNames">
       <list>
